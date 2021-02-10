@@ -1,0 +1,30 @@
+{
+  "name": "googlebookssearch",
+  "version": "1.0.0",
+  "description": "google books react",
+  "main": "server.js",
+  "homepage": "https://github.com/ebsizzlin/googleBooksSearch#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebsizzlin/googleBooksSearch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebsizzlin/googleBooksSearch/issues"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.16.3",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.6.7"
+  }
+}
