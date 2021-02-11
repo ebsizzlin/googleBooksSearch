@@ -2,6 +2,7 @@ import React from "react";
 
 function Jumbotron ({children}){
     const background = "./google.jpg"
+    //https://images.unsplash.com/photo-1468779036391-52341f60b55d?ixlib=rb-1.2.1&auto=format&fit=crop&w=2721&q=80
     return (
         <div 
             style={{clear:"both",marginTop:30, 

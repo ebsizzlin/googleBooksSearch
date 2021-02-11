@@ -1,7 +1,7 @@
 {
-  "name": "google-seaerch",
+  "name": "mern",
   "version": "1.0.0",
-  "description": "mern google search",
+  "description": "Mern Demo",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -15,16 +15,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^4.1.0",
-    "nodemon": "^1.18.7"
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.19.4"
   },
   "dependencies": {
-    "axios": "^0.18.0",
-    "express": "^4.16.3",
+    "axios": "^0.18.1",
+    "express": "^4.17.1",
     "if-env": "^1.0.4",
-    "mongoose": "^5.5.0",
+    "mongoose": "^5.11.15",
     "path": "^0.12.7",
-    "react": "^16.8.6",
-    "react-router-dom": "^5.0.0"
+    "react": "^16.14.0",
+    "react-router-dom": "^5.2.0"
   }
 }

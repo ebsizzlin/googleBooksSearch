@@ -17,10 +17,10 @@ const SavedBookDetail = props => {
             marginBottom: 10, 
             float:"right", 
             marginLeft: 10 }}
-          className="btn btn-primary">
+          className="btn btn-info">
           View
         </a>
-        <button onClick={props.handleDelete} className="btn btn-primary save-btn" 
+        <button onClick={props.handleDelete} className="btn btn-danger save-btn" 
           style={{
             paddingLeft : 40,
             paddingRight : 40,
